@@ -1,7 +1,8 @@
-## lynx-google
-A simple shell script that opens a lynx instance showing the Google search reults for any terms that follow the name of the script.
+# lynx-google
+A simple shell script that opens a lynx instance showing the Google search reults for any terms that follow the name of the script. Useful for quickly executing searches in a command-line environment.
 
-Example:
+#### Example:
+
 `chmod +x lynx-google`
 
 `lynx-google search the web`
