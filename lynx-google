@@ -1,0 +1,11 @@
+#!/bin/bash
+# Opens a lynx browser searching any terms that follow the name of this script
+
+url="https://www.google.com/search?q="
+
+for term in "$@"
+do
+	url=$url"+"$term
+done
+
+lynx -accept_all_cookies $url
