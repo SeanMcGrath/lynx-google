@@ -8,4 +8,4 @@ do
 	url=$url"+"$term
 done
 
-lynx -accept_all_cookies $url
+lynx -cookies -accept_all_cookies $url
